@@ -1,1 +1,3 @@
 # Project
+
+* # Training the model
