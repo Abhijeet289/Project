@@ -47,10 +47,10 @@ cnt3 /= cnt
 cnt4 /= cnt
 rg1_score /= cnt
 rgl_score /= cnt
-print("BS1 : ", cnt1)
-print("BS2 : ", cnt2)
-print("BS3 : ", cnt3)
-print("BS4 : ", cnt4)
+print("Bleu Score 1 : ", cnt1)
+print("Bleu Score 2 : ", cnt2)
+print("Bleu Score 3 : ", cnt3)
+print("Bleu Score 4 : ", cnt4)
 print("Rouge1 : ", rg1_score)
 print("RougeL : ", rgl_score)
 
