@@ -7,10 +7,10 @@
 ### Steps
 * Step 1 - Open anaconda navigator and click on environments
 * Step 2 - Click on import located on the bottom of the screen
-* ![alt text](http://url/to/img.png)
+* ![alt text](https://github.com/Abhijeet289/Project/blob/master/imgs/env_conda01.png)
 * Step 3 - Give the environment a new name and click the folder icon and select the environment.yml file you exported in the last section
 * Step 4 - Then click import and wait a few minutes and the environment will be imported along with it’s dependencies.
-* ![alt text](http://url/to/img.png)
+* ![alt text](https://github.com/Abhijeet289/Project/blob/master/imgs/env_conda02.png)
 
 
 ### Training the model
