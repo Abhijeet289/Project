@@ -54,11 +54,10 @@ def addDBPointer(agent_metadata):
 
     return pointer_vector
 
-def create_delex_data(df):
+def create_data(df):
     """"
         Creating the dictionary for delexicalizing the data
     """
-    dic = dict.createDict()
     delex_data = {}
     dialogue = []
     dialogue_number = 1
@@ -364,7 +363,7 @@ def main():
     """
     df = read_data()
 
-    delex_data = create_delex_data(df)
+    delex_data = create_data(df)
 
     print('Divide dialogues for separate bits - usr, sys, db, bs')
     word_freqs_usr, word_freqs_sys = divideData(delex_data)

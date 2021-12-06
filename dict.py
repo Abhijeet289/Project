@@ -141,15 +141,6 @@ def createDict():
     print("Dictionary Created with length = ", len(dic))
     return dic
 
-# def get_validation_dataset(tokenizer, dataset_path = './test.json'):
-#     logger.info("Download validation dataset from %s", dataset_path)
-#     validation_file = cached_path(dataset_path)
-#     with open(validation_file, "r", encoding="utf-8") as f:
-#         dataset = json.loads(f.read())
-#     logger.info("Tokenize and encode the dataset")
-#
-#     return dataset
-
 def delexicalise(utt, dictionary):
     for key, val in dictionary:
         utt = (' ' + utt + ' ').replace(' ' + key + ' ', ' ' + val + ' ')
