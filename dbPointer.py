@@ -28,20 +28,6 @@ def oneHotVector(num, domain, vector):
             vector[idx * 6: idx * 6 + 6] = np.array([0, 0, 0, 0, 1, 0])
         elif num >= 5:
             vector[idx * 6: idx * 6 + 6] = np.array([0, 0, 0, 0, 0, 1])
-    else:
-        idx = domains.index(domain)
-        if num == 0:
-            vector[idx * 6: idx * 6 + 6] = np.array([1, 0, 0, 0, 0, 0])
-        elif num <= 2:
-            vector[idx * 6: idx * 6 + 6] = np.array([0, 1, 0, 0, 0, 0])
-        elif num <= 5:
-            vector[idx * 6: idx * 6 + 6] = np.array([0, 0, 1, 0, 0, 0])
-        elif num <= 10:
-            vector[idx * 6: idx * 6 + 6] = np.array([0, 0, 0, 1, 0, 0])
-        elif num <= 40:
-            vector[idx * 6: idx * 6 + 6] = np.array([0, 0, 0, 0, 1, 0])
-        elif num > 40:
-            vector[idx * 6: idx * 6 + 6] = np.array([0, 0, 0, 0, 0, 1])
 
     return vector
 
